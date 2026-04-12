@@ -1,0 +1,60 @@
+.activity-row {
+  display: grid;
+  grid-template-columns: 6px 96px 1fr auto;
+  gap: 18px;
+  padding: 18px;
+  border-radius: 18px;
+  background: linear-gradient(
+  145deg,
+  rgba(255,255,255,0.35),
+  rgba(255,255,255,0.20)
+);
+  align-items: center;
+}
+
+.activity-row:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.activity-text h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.activity-time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #e5e7eb;
+}
+
+.activity-time input {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 6px;
+  padding: 4px 6px;
+  color: white;
+}
+
+.activity-cost {
+  margin-top: 6px;
+  color: #22c55e;
+  font-weight: 700;
+}
+
+.delete-btn {
+  background: rgba(239,68,68,0.15);
+  color: #f87171;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 18px;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background: rgba(239,68,68,0.35);
+  transform: scale(1.1);
+}
